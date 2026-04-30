@@ -22,6 +22,9 @@ while True:
         GPIO.output(3, False)
         time.sleep(1)
 
+gnd    gnd
+vcc    5v
+o/p    3gpio (5)
 
 
 6.led
@@ -39,3 +42,6 @@ while True:
     
     GPIO.output(8, GPIO.LOW)
     time.sleep(2)
+Raspberry    led
+gnd          gnd
+o/p          8gpio (24)
