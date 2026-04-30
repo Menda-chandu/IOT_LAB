@@ -38,3 +38,8 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("Measurement stopped by User")
         GPIO.cleanup()
+
+vcc    5v
+trig   gpio24(18)
+echo   gpio18 (12)
+gnd    gnd
